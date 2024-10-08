@@ -22,6 +22,18 @@
         gap: 1rem;
       }
 
+      @media only screen and (max-width: 850px) {
+        .grid-3-coluns {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media only screen and (max-width: 700px) {
+        .grid-3-coluns {
+          grid-template-columns: 1fr;
+        }
+      }
+
       .info {
         display: flex;
         justify-items: center;
