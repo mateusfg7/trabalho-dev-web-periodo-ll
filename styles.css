@@ -233,58 +233,63 @@
     pointer-events: none;
 }
 
+
+.imagens{
+
+}
+
 .imagem1_1{
     position: absolute;
     z-index: 100;
-    width: 12.81%;
-    height: 22.79%;
-    left: 2.12%;
-    top: 42.58%; 
+    width: 9rem;
+    height: 9rem;
+    left: 29rem;
+    top: 327rem;
 }
 
 .imagem1_2{
     position: absolute;
     z-index: 100;
-    width: 12.81%;
-    height: 22.79%;
-    left: 35.87%;
-    top: 42.58%;
+    width: 9rem;
+    height: 9rem;
+    left: 32.05rem;
+    top: 327rem;
 }
 
 .imagem1_3{
     position: absolute;
     z-index: 100;
-    width: 12.81%;
-    height: 22.79%;
-    left: 67.35%;
-    top: 42.58%; 
+    width: 9rem;
+    height: 9rem;
+    left: 920rem;
+    top: 327rem;
 }
 
 .imagem1_4{
     position: absolute;
     z-index: 100;
-    width: 12.81%;
-    height: 22.79%;
-    left: 2.12%;
-    top: 67.19%;
+    width: 9rem;
+    height: 9rem;
+    left: 29rem;
+    top: 26.15rem;
 }
 
 .imagem1_5{
     position: absolute;
     z-index: 100;
-    width: 12.81%;
-    height: 22.79%;
-    left: 35.87%;
-    top: 67.19%;
+    width: 9rem;
+    height: 9rem;
+    left: 32.05rem;
+    top: 26.15rem;
 }
 
 .imagem1_6{
     position: absolute;
     z-index: 100;
-    width: 12.81%;
-    height: 22.79%;
-    left: 67.35%;
-    top: 67.19%;
+    width: 9rem;
+    height: 9rem;
+    left: 920rem;
+    top: 26.15rem;
 }
 
 .imagem2.1{
