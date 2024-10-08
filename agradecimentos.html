@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Obrigado - Second Home</title>
+        <style>
+            /* Estilizando o cabeçalho */
+            #cabecalho {
+                background-image: radial-gradient(circle at 50% 50%, #38b6ff, #004aad);
+                padding: 20px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            }
+
+            /* Estilizando o menu de navegação */
+            .navMenu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            /* Estiliza a imagem no navMenu */
+            .navMenu img {
+                width: 60px;
+                position: fixed;
+                left: -0;
+                margin-left: 20px;
+                border-radius: 10px;
+            }
+
+            /* Estilizando os links do menu */
+            .navMenu a {
+                text-decoration: none;
+                color: #ffffff;
+                padding: 10px 20px;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+
+            /* Alterando a cor do link ao passar o mouse */
+            .navMenu a:hover {
+                background-color: #5271ff;
+                border-radius: 20px;
+            }
+
+            /* Centralizando elementos */
+            .centralizar {
+                text-align: center;
+            }
+
+            /* Ajusta a margem do título */
+            .titulo {
+                margin-bottom: 20px;
+            }
+
+            /* Estilos para o título */
+            .titulo h1 {
+                font-size: 2.5rem;
+                text-decoration: underline;
+            }
+
+            /* Estilos para o texto abaixo do título */
+            .titulo p {
+                font-size: 1.2rem;
+            }
+            
+            /* Personaliza o box com a mensagem de agradecimento */
+            .mensagem {
+                max-width: 700px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding: 50px;
+                background-image: linear-gradient(to bottom, #38b6ff, #5271ff, #004aad);
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+                border-radius: 25px;
+            }
+
+            /* Estilos para o rodapé */
+            .rodape {
+                background-color: #000;
+                color: #fff;
+                padding: 8px; 
+                font-size: 1rem; 
+                position: absolute;
+                bottom: -0;
+                left: -0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <nav class="navMenu">
+                <img src="assets/MAIN_LOGO.png">
+                <a href="index.html">INÍCIO</a>
+                <a href="places.html">ESPAÇO</a>
+                <a href="advices.html">INFORMAÇÕES</a>
+                <a href="contato.html">CONTATOS</a>
+            </nav>
+        </header>
+        <main>
+            <section class="centralizar">
+                <div class="mensagem">
+                    <div class="titulo">
+                        <h1>SUA MENSAGEM FOI ENVIADA!</h1>
+                        <p>Agradecemos pela sua mensagem, em breve te retornaremos!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="centralizar">
+                <p>&copy;2024 - Second Home Hotel</p>
+            </div>
+            </footer>
+        </footer>
+    </body>
+</html>
