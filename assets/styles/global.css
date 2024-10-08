@@ -91,6 +91,10 @@ main {
     padding: 15px;
   }
 
+  #cabecalho img {
+    display: none;
+  }
+
   /* Estilizando os links do menu */
   .navMenu a {
     padding: 10px 20px;
