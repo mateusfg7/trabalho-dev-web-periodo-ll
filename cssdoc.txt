@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; /* Fonte atualizada */
+    background-color: #5271ff; /* Fundo da página */
+    position: relative; /* Para o posicionamento absoluto dos elementos */
+}
+
+.header, .nav, .section, .footer {
+    width: 88rem; /* Largura comum */
+    position: absolute;
+    left: 1rem; /* Centralizado */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    z-index: 1; /* Para garantir que o texto esteja na frente */
+    text-align: center; /* Centralização do texto */
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 11rem; /* Altura maior */
+    top: 1rem; /* Distância do topo */
+}
+
+.header-title {
+    width: 100%;
+    height: 7rem; /* Altura do título */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 5rem;
+}
+
+.nav {
+    background-color: #004aad;
+    color: white;
+    height: 4rem; /* Altura */
+    top: 13rem; /* Distância do topo */
+}
+
+.nav-link {
+    margin: 0 2rem; /* Margem entre os links */
+    color: white;
+    text-decoration: none;
+    font-weight: 400; /* Peso da fonte */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-family:'Open Sans', sans-serif;
+}
+
+.logotop1{
+    position: fixed;
+    height: 10rem;
+    width: 10.25%;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 1000;
+    border-radius: 15px; 
+    object-fit: cover; 
+}
+
+.logotop2{
+    position: fixed;
+    height: 10rem;
+    width: 10.25%;
+    top: 1.5rem;
+    left: 79rem;
+    z-index: 1000;
+    border-radius: 15px; 
+    object-fit: cover; 
+}
+
+.home { 
+    left: 0rem;
+}
+
+.espaco { 
+    left: 10rem;
+}
+
+.regras { 
+    left: 20rem;
+}
+
+.contato {
+    left: 30rem;
+}
+
+.title2 {
+    font-size: 3rem;
+    font-weight: 300;
+    font-family:'Open Sans', sans-serif;
+    left: 0rem;
+    width: 100%;
+    height: 28rem; 
+    top: 6rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family:'Open Sans', sans-serif;
+    left: 25rem;
+    width: 40rem;
+    height: 5rem; 
+    top: 5rem;
+    position: absolute;
+}
+
+.section {
+    background-color: #38b6ff;
+    color: white;
+    height: 29rem; /* Altura maior */
+    top: 18rem; /* Distância do topo da página */
+    position: absolute; /* Agora em relação ao body */
+    width: 88rem; /* Largura comum */
+    left: 1rem; /* Centralizado */
+    display: flex;
+}
+
+.gray11{
+    position: absolute;
+    background-color: gainsboro;
+    z-index: 100;
+    height: 8.75rem;
+    width: 15rem;
+    left: 11.75rem;
+    top: 9rem;
+}
+
+.texto_gray1 {
+    position: absolute;
+    text-align: center; 
+    z-index: 200;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 8.75rem;
+    width: 15rem;
+    left: 11.75rem;
+    top: 10rem;
+    pointer-events: none;
+}
+
+.gray22{
+    position: absolute;
+    background-color: gainsboro;
+    z-index: 100;
+    height: 8.75rem;
+    width: 15rem;
+    left: 41.75rem;
+    top: 9rem;
+}
+
+.texto_gray2 {
+    position: absolute;
+    text-align: center; 
+    z-index: 200;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    height: 8.75rem;
+    width: 15rem;
+    left: 41.75rem;
+    top: 9.5rem;
+    pointer-events: none;
+}
+
+.gray33{
+    position: absolute;
+    background-color: gainsboro;
+    z-index: 100;
+    width: 15rem;
+    height: 8.75rem;
+    left: 71.75rem;
+    top: 9rem;
+}
+.texto_gray3 {
+    position: absolute;
+    text-align: center; 
+    z-index: 200;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 8.75rem;
+    left: 71.75rem;
+    top: 9rem;
+    pointer-events: none;
+}
+
+.gray44{
+    position: absolute;
+    background-color: gainsboro;
+    z-index: 100;
+    width: 15rem;
+    height: 8.75rem;
+    left: 11.75rem;
+    top: 19rem;
+}
+
+.texto_gray4 {
+    position: absolute;
+    text-align: center; 
+    z-index: 200;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 8.75rem;
+    left: 11.75rem;
+    top: 19rem;
+    pointer-events: none;
+}
+
+.gray55{
+    position: absolute;
+    background-color: gainsboro;
+    z-index: 100;
+    width: 15rem;
+    height: 8.75rem;
+    left: 41.75rem;
+    top: 19rem;
+}
+
+.texto_gray5 {
+    position: absolute;
+    text-align: center; 
+    z-index: 200;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 8.75rem;
+    left: 41.75rem;
+    top: 20.5rem;
+    pointer-events: none;
+}
+
+.gray66{
+    position: absolute;
+    background-color: gainsboro;
+    z-index: 100;
+    width: 15rem;
+    height: 8.75rem;
+    left: 71.75rem;
+    top: 19rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+.texto_gray6 {
+    position: absolute;
+    text-align: center; 
+    z-index: 200;
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 8.75rem;
+    left: 71.75rem;
+    top: 20.5rem;
+    pointer-events: none;
+}
+
+.image1 {top: 9rem; left: 2rem; position: absolute;} 
+.image2 {top: 9rem; left: 32rem; position: absolute;} 
+.image3 {top: 9rem; left: 62rem; position: absolute;}
+.image4 {top: 19rem; left: 2rem; position: absolute;} 
+.image5 {top: 19rem; left: 32rem; position: absolute;}
+.image6 {top: 19rem; left: 62rem; position: absolute;} 
