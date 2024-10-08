@@ -56,7 +56,6 @@
             /* Estilos para o título */
             .titulo h1 {
                 font-size: 2.5rem;
-                text-decoration: underline;
             }
 
             /* Estilos para o texto abaixo do título */
@@ -88,6 +87,71 @@
                 left: -0;
                 width: 100%;
             }
+
+            /* Responsividade da página */
+            @media only screen and (max-width: 1024px){
+                /* Estilizando o cabeçalho */
+                #cabecalho {
+                    padding: 20px;
+                }
+
+                /* Estilizando os links do menu */
+                .navMenu a {
+                    padding: 10px 20px;
+                    margin-right: 15px;
+                }
+
+                /* Personaliza o box com a mensagem de agradecimento */
+                .mensagem {
+                    max-width: 500px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    padding: 45px;
+                }
+                
+                /* Estilos para o rodapé */
+                .rodape {
+                    padding: 10px;   
+                }
+            }
+
+            @media only screen and (max-width: 768px){
+                /* Estilizando o cabeçalho */
+                #cabecalho {
+                    padding: 15px;
+                }
+
+                /* Estilizando os links do menu */
+                .navMenu a {
+                    padding: 10px 20px;
+                    margin-right: 5px;
+                }
+                
+                /* Estilos para o título */
+                .titulo h1 {
+                    font-size: 2rem;
+                }
+
+                /* Estilos para o texto abaixo do título */
+                .titulo p {
+                    font-size: 1rem;
+                }   
+
+                /* Personaliza o box com a mensagem de agradecimento */
+                .mensagem {
+                    max-width: 400px;
+                    top: 45%;
+                    left: 45%;
+                    transform: translate(-40%, -40%);
+                    padding: 40px;
+                }
+                
+                /* Estilos para o rodapé */
+                .rodape {
+                    padding: 5px;   
+                }
+            }  
         </style>
     </head>
     <body>
